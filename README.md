@@ -16,3 +16,22 @@ The system searches internal documents and returns the most relevant answer.
 - Sentence Transformers
 - Rank-BM25
 - NumPy
+## Example Queries
+
+- What should I do if an API key is exposed?
+- What is the policy on password sharing?
+- How quickly must incidents be reported?
+
+## Architecture
+
+Question
+    ↓
+BM25 Search
+    ↓
+Vector Search
+    ↓
+Hybrid Retrieval
+    ↓
+GPT-4o-mini
+    ↓
+Answer

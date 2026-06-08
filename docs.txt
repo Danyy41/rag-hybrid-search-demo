@@ -1,5 +1,13 @@
+```
+Security Policy
+
 Employees must use MFA.
 
 API keys must never be stored in GitHub.
 
 If an API key is exposed, rotate it immediately.
+
+Password sharing is prohibited.
+
+Security incidents must be reported within 24 hours.
+```

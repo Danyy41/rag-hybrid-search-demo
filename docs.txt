@@ -1,0 +1,5 @@
+Employees must use MFA.
+
+API keys must never be stored in GitHub.
+
+If an API key is exposed, rotate it immediately.
